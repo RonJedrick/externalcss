@@ -1,0 +1,74 @@
+header{
+    background-image: linear-gradient(to bottom, rgb(206, 194, 194), rgb(17, 13, 13)), linear-gradient(to bottom, #00F, #00F);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    color: #00F;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    font-size: 2em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    margin-right: 40px;
+}
+nac li:last-child{
+    margin-right: 0;
+}
+nac ul li{
+    margin-right: 20px;
+
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section{
+    margin-bottom: 40px;
+}
+h2{
+    margin-top: 0;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+form input,
+form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+form button[type="submit"]{
+    cursor: pointer;
+}
+form button [type="submit"]:hover {
+    background-color: aquamarine;
+}
+form button[type="submit"]:focus {
+    outline: none;
+}
+footer{
+    background-color: black;
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
